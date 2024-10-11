@@ -1,4 +1,5 @@
 const prisma = require("../prisma");
+
 const seed = async () => {
   // Create 10 employees with placeholder titles
   await prisma.employee.createMany({
